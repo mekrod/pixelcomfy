@@ -1,0 +1,20 @@
+{
+  "display_name": "Medium-High Size Models",
+  "resources": [
+    {
+      "name": "flux-2-klein-9b-Q8_0.gguf",
+      "url": "https://huggingface.co/unsloth/FLUX.2-klein-9B-GGUF/blob/main/flux-2-klein-9b-Q8_0.gguf",
+      "relative_path": "ComfyUI/models/checkpoints/flux-2-klein-9b-Q8_0.gguf"
+    },
+    {
+      "name": "qwen_3_8b_fp8mixed.safetensors",
+      "url": "https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-9b/blob/main/split_files/text_encoders/qwen_3_8b_fp8mixed.safetensors",
+      "relative_path": "ComfyUI/models/clip/qwen_3_8b_fp8mixed.safetensors"
+    },
+    {
+      "name": "flux2-vae.safetensors",
+      "url": "https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-9b/blob/main/split_files/vae/flux2-vae.safetensors",
+      "relative_path": "ComfyUI/models/vae/flux2-vae.safetensors"
+    }
+  ]
+}
