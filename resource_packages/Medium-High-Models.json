@@ -1,5 +1,5 @@
 {
-  "display_name": "Medium-High Size Models",
+  "display_name": "9b High GPU Models",
   "resources": [
     {
       "name": "flux-2-klein-9b-Q8_0.gguf",
@@ -15,6 +15,16 @@
       "name": "flux2-vae.safetensors",
       "url": "https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-9b/resolve/main/split_files/vae/flux2-vae.safetensors",
       "relative_path": "ComfyUI/models/vae/flux2-vae.safetensors"
+    },
+    {
+      "name": "sktchrguider_3.safetensors",
+      "url": "https://huggingface.co/mekrod/sktchr-guidr_3/resolve/main/sktchrguider_3.safetensors",
+      "relative_path": "ComfyUI/models/loras/sktchrguider_3.safetensors"
+    },
+    {
+      "name": "stylchangr_8.safetensors",
+      "url": "https://huggingface.co/mekrod/sktchr-guidr_3/resolve/main/stylchangr_8.safetensors",
+      "relative_path": "ComfyUI/models/loras/stylchangr_8.safetensors"
     }
   ]
 }
